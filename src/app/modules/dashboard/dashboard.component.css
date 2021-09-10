@@ -1,0 +1,39 @@
+*{
+    padding:15px;
+    background: gainsboro;
+}
+.container{
+    width:auto;
+}
+.container-heading{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+}
+.col-width-5{
+    width: 100%;
+    display: inline-block;
+}
+.card{
+    display: inline-block;
+ width: 100%;
+ margin: 0px;
+ padding: 0 10px 10px 10px;
+}
+.col-left{
+    float: left;
+    padding: 0;
+}
+.col-right{
+    float:right;
+    padding: 0;
+}
+.pcard{
+    text-align: center;
+    padding: 0;
+}
+
+
+
+
+

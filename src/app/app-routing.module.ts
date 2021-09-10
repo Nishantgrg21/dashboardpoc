@@ -27,11 +27,7 @@ const routes: Routes = [
       component: ProductsComponent,
     },
   ]
-  },
-  {
-    path: 'products',
-    component: ProductsComponent,
-  },
+  }
 
 ];
 

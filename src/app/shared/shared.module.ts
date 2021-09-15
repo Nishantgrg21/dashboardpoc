@@ -4,8 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AppRoutingModule } from '../app-routing.module';
-
-
+import { ChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -15,7 +14,8 @@ import { AppRoutingModule } from '../app-routing.module';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   exports:[
     HeaderComponent,

@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DefaultModule } from './layouts/default/default.module';
 import { SharedModule } from './shared/shared.module';
-
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
     AppComponent,
+   
     
   
   ],
@@ -20,6 +21,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserAnimationsModule,
     DefaultModule,
     SharedModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,15 @@
 .nav-link, .user-info{
     color:#fff;
 }
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #292929;
+    border-bottom: 2px solid black;
+}

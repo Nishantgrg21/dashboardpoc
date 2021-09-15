@@ -3,9 +3,11 @@
     text-align: center;
 }
 #sidebar {
-      background:#262933;
+  /* position: absolute; */
+      background:#160c01;
       color:#fff;
-      height:88vh;
+      height:200vh;
+      position: fixed;
 }
   
 
@@ -23,33 +25,39 @@
     
     #sidebar ul li a {
       padding:10px;
-      font-size:1.1em;
-      color: cornsilk;
+      font-size:15px;
+      color: #fff;
       display:block;
       text-decoration: none;
       text-align: center;
-  
+      padding: 20px;
+       border-left: 5px solid #160c01;
+      line-height: 28px;
     }
     
     #sidebar ul li .active {
-      color:#262933;
-      background: #fff !important;;
+      color:#ab5c05;
+      
+      background: #160c01 !important;;
       text-align: center;
       text-decoration: none;
-   border-left: 5px solid brown;
+   border-left: 5px solid #ab5c05;
+   padding: 20px;
+   line-height: 28px;
     }
    
   
     #sidebar ul li a:hover {
-      color:#262933;
-      background:#fff;
+      color:#fff;
+      background:#160c01;
       text-align: center;
       text-decoration: none;
-   border-left: 5px solid brown;
+   border-left: 5px solid #ab5c05;
     }
     
     .fa {
-        font-size: xx-large;
+        
+    font-size: large;
     }
    
   

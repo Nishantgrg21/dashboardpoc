@@ -1,0 +1,8 @@
+@media screen and (max-device-width:600px ) {
+    .mobile-left{
+        width: 30%;
+    }
+    .mobile-right{
+        width: 70%;
+    }
+}

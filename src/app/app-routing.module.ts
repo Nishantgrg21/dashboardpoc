@@ -4,6 +4,7 @@ import { DefaultComponent } from './layouts/default/default.component';
 import { CollectionsComponent } from './modules/collections/collections.component';
 import { CompaignComponent } from './modules/compaign/compaign.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { HomeComponent } from './modules/home/home.component';
 import { ProductsComponent } from './modules/products/products.component';
 
 const routes: Routes = [
@@ -13,6 +14,10 @@ const routes: Routes = [
     children:[{
       path: '',
       component: DashboardComponent
+    },
+    {
+      path: 'home',
+      component: HomeComponent,
     },
     {
       path: 'collections',

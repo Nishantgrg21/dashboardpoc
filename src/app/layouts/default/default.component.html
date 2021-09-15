@@ -1,13 +1,16 @@
 <div class="">
     <div class="header">
-        <app-header></app-header>
+       
     </div>
     <div class="col-md-12">
-        <div class="col-md-1" style="float: left;">
+        <div class="col-md-1 mobile-left" style="float: left;">
+         
             <app-sidebar></app-sidebar>
+          
         </div>
-        <div class="col-md-11" style="float: right;">
-         <router-outlet></router-outlet>
+        <div class="col-md-11 mobile-right" style="float: right;">
+            <app-header></app-header>
+             <router-outlet></router-outlet>
          
         </div>
     </div>

@@ -1,0 +1,30 @@
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+ .thumbnail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    min-width: 100%;
+    border-radius: 5px;
+  }
+ 
+  /*.thumbnail-description {
+    min-height: 40px;
+  }
+ 
+  .thumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+  }
+
+  
+  .mg-10{
+      margin: 5px;
+  } */
+
+  .inline-pos{
+    display: flex;
+}

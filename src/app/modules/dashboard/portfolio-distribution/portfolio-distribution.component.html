@@ -1,1 +1,67 @@
-<p>portfolio-distribution works!</p>
+<div class="card">
+    <div class="card-header">
+       
+        <div class="left">
+          Portfolio Distribution
+      </div>
+      <div class="right">
+       <img src="assets/images/info-d.png" width="12" alt="">
+      </div>
+    
+    </div>
+    <div class="card-body">
+      <div class="col-md-12">
+        <div class="left">
+         <button type="button" class="btn1">Buckets</button>
+         <button type="button" class="btn2">Billing Date</button>
+       </div>
+       <div class="right">
+        <select class="select-option">
+          <option>January 21</option>
+          <option>Febuary 21</option>
+          <option>March 21</option>
+          <option>April 21</option>
+          <option>May 21</option>
+          <option>June 21</option>
+          <option>July 21</option>
+      </select>
+       </div>
+      </div>
+      <br>
+      <br>
+      <div class="col-md-12">
+        <div class="chart-wrapper">
+          <canvas baseChart 
+          [datasets]="barChartData"
+          [labels]="barChartLabels"
+          [options]="barChartOptions"
+          [colors]="barChartColors" 
+          [plugins]="barChartPlugins"
+          [legend]="barChartLegend"
+          [chartType]="barChartType">
+        </canvas>
+      </div>
+       
+      </div>
+      <div class="col-md-12 bill-data" >
+        < Bill 1 > 
+        
+      </div>
+      <br>
+      <div class="col-md-12 account-data" >
+        <span><button class="btn3"></button> Total Accounts </span>
+         <span><button class="btn4"></button>Account Resolved</span>
+      </div>
+     
+     
+
+    </div>
+    <div class="card-footer">
+      <div class="left">
+          View Full Analytics
+      </div>
+      <div class="right">
+        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>

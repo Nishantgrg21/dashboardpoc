@@ -12,6 +12,8 @@ import { PortfolioDistributionComponent } from 'src/app/modules/dashboard/portfo
 import { ResolutionTrendsComponent } from 'src/app/modules/dashboard/resolution-trends/resolution-trends.component';
 import { ChartsModule } from 'ng2-charts';
 import { HomeComponent } from 'src/app/modules/home/home.component';
+import { BlockComponent } from 'src/app/modules/dashboard/block/block.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,7 @@ import { HomeComponent } from 'src/app/modules/home/home.component';
     ResolutionTrendsComponent,
 
     HomeComponent,
-
+    BlockComponent
   ],
   imports: [
     CommonModule,

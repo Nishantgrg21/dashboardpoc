@@ -13,3 +13,8 @@
     background: #292929;
     border-bottom: 2px solid black;
 }
+.line{
+    border: 0.5px solid rgb(89, 89, 89);
+    height:20px;
+    margin: 0 5px 0 15px;
+}

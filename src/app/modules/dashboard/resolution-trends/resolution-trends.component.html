@@ -1,12 +1,56 @@
-<p>resolution-trends works!</p>
-<!-- <div class="chart-wrapper">
-    <canvas baseChart 
-        [datasets]="lineChartData" 
-        [labels]="lineChartLabels" 
-        [options]="lineChartOptions"
-        [colors]="lineChartColors" 
-        [legend]="lineChartLegend" 
-        [chartType]="lineChartType" 
-        [plugins]="lineChartPlugins">
-    </canvas>
-</div> -->
+<div class="card">
+    <div class="card-header">
+        <div class="left">
+          Resolution Trends
+      </div>
+      <div class="right">
+       <img src="assets/images/info-d.png" width="12" alt="">
+      </div>
+      
+    </div>
+    <div class="card-body">
+      <div class="col-md-12">
+        <div class="left">
+         
+       </div>
+       <div class="right">
+        <select class="select-option">
+          <option>By Buckets</option>
+          <option>By TOS</option>
+          <option>By Region</option>
+          <option>By Employment</option>
+          <option>By Age</option>
+      </select>
+       </div>
+      </div>
+      <br>
+      <div class="col-md-12">
+        <div class="chart-wrapper">
+          <canvas baseChart height="80"
+              [datasets]="lineChartData" 
+              [labels]="lineChartLabels" 
+              [options]="lineChartOptions"
+              [colors]="lineChartColors" 
+              [legend]="lineChartLegend" 
+              [chartType]="lineChartType" 
+              [plugins]="lineChartPlugins">
+          </canvas>
+      </div>
+      
+      </div>
+      <br>
+      <div class="col-md-12 account-data" >
+        <span><button class="btn3"></button> Total Accounts </span>
+         <span><button class="btn4"></button>Account Resolved</span>
+      </div>
+
+    </div>
+    <div class="card-footer">
+      <div class="left">
+        View Full Analytics
+      </div>
+      <div class="right">
+        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>

@@ -12,4 +12,6 @@ export class StateWiseComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
 }

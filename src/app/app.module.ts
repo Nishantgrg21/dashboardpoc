@@ -8,9 +8,14 @@ import { DefaultModule } from './layouts/default/default.module';
 import { SharedModule } from './shared/shared.module';
 import { ChartsModule } from 'ng2-charts';
 
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
+    
    
     
   
